@@ -1,5 +1,5 @@
 def fizzbuzz(num)
-  if num / 3 == round_down(num / 3)
+  if num / 3 == floor(num / 3)
     "Fizz"
   else
     nil
