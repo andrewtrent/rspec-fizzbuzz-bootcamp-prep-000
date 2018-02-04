@@ -1,6 +1,6 @@
 def fizzbuzz(num)
   if num / 3 == (num / 3).floor
-    "Fizz
+    "Fizz"
   else
     nil
   end
