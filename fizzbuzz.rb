@@ -1,5 +1,5 @@
 def fizzbuzz(num)
-  if (num / 3.0).is_a?(Integer) == true
+  if num.fdiv(3) == num.fdiv(3).to_i
     "Fizz"
   else
     nil
