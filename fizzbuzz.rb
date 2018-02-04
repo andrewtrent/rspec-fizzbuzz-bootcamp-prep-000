@@ -4,7 +4,6 @@ def fizzbuzz(num)
   end
   if num.fdiv(5) == num.fdiv(3).to_i
     "Buzz"
-  end
   else
     nil
   end
